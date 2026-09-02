@@ -33,5 +33,5 @@ jobs:
           commit-message: "update docs source"
           branch: "docs_source_update"
           delete-branch: true
-          label: "docs-update"
+          labels: "docs-update"
           add-paths: docs/source

@@ -1,0 +1,6 @@
+setuptools~=84.0
+requests~=2.34
+responses~=0.26
+pytest~=9.1
+ruff~=0.16
+sphinx~=7.4

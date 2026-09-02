@@ -4,6 +4,7 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING:
     from paperlesspaper_client.client import Client
 
+
 class Devices:
     def __init__(self, client: "Client") -> None:
         """
@@ -256,5 +257,5 @@ class Devices:
                 json={"uuid": uuid},
                 files=files or None,
             )
-            
+
             return response.json()
